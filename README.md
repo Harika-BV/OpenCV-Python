@@ -9,7 +9,7 @@
 5. Video Analysis - Video read, Video write, Webcam initialization
 6. Applications - Face detection, Real time face detection, Real time eye detection
 
-> Image Fundamentals
+### Image Fundamentals
 
 1. How to read an image?
 
@@ -72,7 +72,7 @@ color : BGR Colors - (255,0,0)
 Thickness : thickness border line in px. -1 : Fill the rectangle shape by specified color
 lineType : Gives type of the line to be drawn
 ```
-> Image Processing
+### Image Processing
 
 7. Image Shifting / Rotating
 ```
@@ -85,7 +85,7 @@ rotate = cv2.warpAffine(pic, M, (cols,rows))
 (T_value,binary_threshold) = cv2.threshold(pic, threshold_value, 255, cv2.THRESH_BINARY)
 ```
 
-> Image Filtering
+### Image Filtering
 
 9. How to apply Gaussian Blur
 ```
@@ -102,14 +102,14 @@ cv2.medianBlur(pic, matrix)
 cv2.bilateralFilter(pic,dimpixel,color,space)
 ```
 
-> Feature Detection
+### Feature Detection
 
 12. Canny edge detector
 ```
 cv2.Canny(pic, thresholdval1, thresholdval2)
 ```
 
-> Video Processing
+### Video Processing
 
 13. How to read a video?
 ```
